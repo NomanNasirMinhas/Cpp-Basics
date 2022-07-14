@@ -6,33 +6,33 @@ using namespace std;
 
 int main()
 {
-    //cout << "Hello World!\n";
-    //char sample[] = "NomanNasirMinhas";
-    //cout << sample << " - is wiriting C++\n";
-    //int age;
-    //cout << "Enter Your Age: ";
-    //cin >> age;
-    //cout << "Your age is " << age;
-    //clog << "\nAge Entered";
-    //if (age > 30) {
-    //    cerr << "\nAge Cannot be greater than 30";
-    //}
+    cout << "Hello World!\n";
+    char sample[] = "NomanNasirMinhas";
+    cout << sample << " - is wiriting C++\n";
+    int age;
+    cout << "Enter Your Age: ";
+    cin >> age;
+    cout << "Your age is " << age;
+    clog << "\nAge Entered";
+    if (age > 30) {
+        cerr << "\nAge Cannot be greater than 30";
+    }
 
-    ////Clearing Buffer
-    //int num;
-    //char rand_str[80];
+    //Clearing Buffer
+    int num;
+    char rand_str[80];
 
-    //cout << "Enter Number";
-    //cin >> num;
-    ////cin.ignore(numeric_limits<streamsize>::max(), '\n'); OR
-    ////cin.sync(); OR
-    //cout << "Enter String";
-    //cin >> ws;
-    //cin.getline(rand_str, 80);
+    cout << "Enter Number";
+    cin >> num;
+    //cin.ignore(numeric_limits<streamsize>::max(), '\n'); OR
+    //cin.sync(); OR
+    cout << "Enter String";
+    cin >> ws;
+    cin.getline(rand_str, 80);
 
-    //cout << num << endl;
-    //cout << rand_str << endl;
-    //cout << "Size of rand_str = " << sizeof(rand_str);
+    cout << num << endl;
+    cout << rand_str << endl;
+    cout << "Size of rand_str = " << sizeof(rand_str);
     int test = 1;
     cout << "First  character " << '1' << endl;
     cout << "Second character " << (test ? 3 : '1') << endl;
